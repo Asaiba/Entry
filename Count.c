@@ -17,7 +17,7 @@ int main() {
         cout++;
     }
     
-    printf("The number %d has %d digits.\n", num, cout);
+    printf("Your number has %d digits.\n", num, cout);
     
     if (cout % 2 == 0) {
         printf("The number of digits is even.\n");
