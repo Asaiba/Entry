@@ -17,12 +17,12 @@ int main() {
         cout++;
     }
     
-    printf("Your number has %d digits.\n", num, cout);
+    printf("\nYour number has %d digits.\n", cout);
     
     if (cout % 2 == 0) {
-        printf("The number of digits is even.\n");
+        printf("\nThe number of digits is even.\n");
     } else {
-        printf("The number of digits is odd.\n");
+        printf("\nThe number of digits is odd.\n");
     }
     
     return 0;
